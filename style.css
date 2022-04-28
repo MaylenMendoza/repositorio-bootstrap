@@ -1,0 +1,51 @@
+/*=============================== SLIDER
+ DE IMAGENES===================*/
+
+ .carousel-inner{
+     max-height: 39rem;
+ }
+
+ /*===============================CONTACTO===================*/
+
+#container form {
+    position:absolute;
+}
+
+
+ /*======================FOOTER===================*/
+ 
+ 
+ footer{
+     background: rgb(155, 155, 224);
+    min-height: 100px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+}
+
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+}
+
+
+
+/*===============================MEDIA QUERIES PANTALLA
+ TABLET===================*/
+
+
+ @media (max-wigth: 768px) {
+     #intro  #emprendedoras {
+         width: 90% !important; 
+     }
+
+     .productos-fila{
+         width: 100% !important;
+         text-align: center;
+     }
+
+}
+
